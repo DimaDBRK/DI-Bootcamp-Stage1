@@ -1,0 +1,17 @@
+body {
+  background-color: #57BDFF;
+
+}
+
+p, ul {
+     font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li::first-letter {
+  font-size: 26px;
+}
