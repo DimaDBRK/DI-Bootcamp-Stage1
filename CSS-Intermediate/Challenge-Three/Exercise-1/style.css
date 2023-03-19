@@ -1,0 +1,38 @@
+
+body{
+box-sizing: content-box;
+width: 100%;
+margin-left: 2%;
+}
+
+div, footer {
+display: inline-block; 
+height: 150px;
+width: 96%;
+
+}
+
+.wrap1 {
+  margin: 2% 0%;
+  width: 90%;
+}
+
+
+.left {
+  width: 30%;
+  background: #FF8961;
+  margin-right: 5%;
+}
+
+.right {
+  width: 60%;
+  background: lightblue;
+}
+
+footer{
+  background: #E7D664;
+}
+
+.left, .right, footer {
+  border: 2px black solid;
+}

@@ -1,0 +1,45 @@
+div {
+  border: 2px black solid;
+}
+
+.top {
+  background: #68D962;
+  height: 150px;
+  margin-top: 30px;
+ 
+    
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 30px;
+  box-align: center;
+}
+
+.box {
+  height: 230px;
+  width:32%;
+  
+}
+
+img {
+  width: 100%;
+  height: inherit;
+}
+
+.left {
+  background: #FFD773;
+}
+
+.midle {
+  background: #FF8961;
+}
+
+.right {
+  background: #19A7CE;
+ }
+
+
+

@@ -1,0 +1,48 @@
+
+body{
+box-sizing: content-box;
+width: 99%;
+margin-left: 1%;
+margin-right: auto;
+}
+
+div {
+display: inline-block; 
+}
+
+.container {
+  margin: 2% 0%;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.left {
+  width: 31%;
+  background: #FF8961;
+  margin-right: 2%;
+}
+
+.midle {
+  width: 31%;
+  background: #68D962;
+  margin-right: 2%;
+}
+
+.right {
+  width: 31%;
+  background: #FFD773;
+ }
+
+.top {
+  width: 98.5%;
+  background: #964DBC;
+  height: 120px;  
+}
+
+.left, .right, .midle, .top {
+  border: 2px black solid;
+}
+
+.left, .right, .midle {
+  height: 500px; 
+}

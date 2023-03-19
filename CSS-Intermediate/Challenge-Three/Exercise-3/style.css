@@ -1,0 +1,44 @@
+div {
+  border: 2px black solid;
+}
+
+.top {
+  width: 88.5%;
+  background: #68D962;
+  height: 150px;
+  margin: 30px 45px;
+  box-align: center;
+    
+}
+
+.box {
+  height: 230px;
+  display: inline-block; 
+  width:29%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+img {
+  width: 100%;
+  height: inherit;
+}
+
+section {
+  margin: 30px;
+}
+
+.left {
+  background: #FFD773;
+}
+
+.midle {
+  background: #FF8961;
+}
+
+.right {
+  background: #19A7CE;
+ }
+
+
+
