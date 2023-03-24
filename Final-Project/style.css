@@ -1,11 +1,13 @@
+/* Google font css import ----------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-/*Universal box-sizing for all elements*/
+/* Universal box-sizing for all elements ----------------------------------*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 18px
+
 }
 
 .header1 {
@@ -44,34 +46,32 @@ h2 {
   color: white;
 }
 
-
 .headline {
   width: 70%;
   text-align: center;
   margin:30px auto 0 auto;
   font-size: 1.2em;
-  font-style: ;
+  font-family: 'Dancing Script', Cursive, sans-serif;
  }
 
 .image {
 border-radius: 40%;
 width: 20vh;
-
+margin-left: 10px;
 }
 
-.card1 {
-}
-
-.container1 {
+.container {
   display: flex;
-  background-color:#FFF1DC;
   align-items: center;
   text-align: center;
   justify-content: center;
   padding: 50px;
   width: 90%;
   margin: 50px auto 50px auto;
-  
+ }
+
+.container1 {
+  background-color:#FFF1DC;
 }
 
 .info {
@@ -79,41 +79,18 @@ width: 20vh;
   border-radius: 30px;
 }
 
-
 .container2 {
-  display: flex;
   background-color:white;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  padding: 50px;
-  width: 90%;
-  margin: 50px auto 50px auto;
 }
 
 .container3 {
-  display: flex;
   flex-direction: row-reverse;
   background-color: #E8D5C4;
-  align-items: center;
-  justify-content: center;
-  padding: 50px;
-  width: 90%;
-  margin: 50px auto 50px auto;
 }
 
-.container4 {
-  display: flex;
-  flex-direction: row-reverse;
-  background-image: ;
-  align-items: center;
-  justify-content: center;
-  padding: 50px;
-  width: 90%;
-  margin: 50px auto 50px auto;
+.book{
+  margin-top:0;
 }
-
-
 
 .block1 {
   width: 80%;
@@ -127,8 +104,28 @@ width: 20vh;
   margin-right: auto;
 }
 
+.novels{
+  align-items: center;
+  justify-content: center;
+  
+  width: 90%;
+  margin: 50px auto 50px auto;
+}
+
+.book {
+  margin-top:0;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
 .logo {
   margin-left: 0;
+}
+
+/* Icons ----------------------------------*/
+.material-icons {
+  
+  font-size: 1em;
 }
 
 
@@ -142,8 +139,7 @@ width: 20vh;
   color: black;
 }
 
-
-/*Menu buttons*/
+/* Menu buttons ----------------------------------*/
 .overlay {
   width: 100%;
   margin: 0 auto;
@@ -162,10 +158,10 @@ width: 20vh;
   font-weight: bold;
   display: inline-block;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+ 
 }
 
-/* hover ----------------------------------*/
+/* Hover ----------------------------------*/
 .overlay-content a:hover, #tributelink2:hover, #tributelink3:hover, footer a:hover {
   color: white;
   text-decoration: underline white;
@@ -179,10 +175,7 @@ width: 20vh;
   box-shadow: 5px 5px 5px #EEEEEE;
 }
 
-
-
-
-/* style footer ----------------------------------*/
+/* Style footer ----------------------------------*/
 
 footer {
   background-color: #DAE5D0;
@@ -201,16 +194,43 @@ footer a {
   color: #A0BCC2;
 }
 
+/* Book list ---------------------------------*/
 
+ol {
+  list-style: none;
+  color: #ccc;
+}
 
+ol li {
+  font-weight: 400;
+  font-size: 1em;
+  position: relative;
+  margin-bottom: 20px;
+}
 
-/* media queries for smartphones */
+li p {
+  color: #555;
+  padding-left: 60px;
+}
+
+li span {
+  position: absolute;
+  line-height: 20px;
+  font-weight: 900;
+   font-size: 1.2em;
+}
+
+/* Media queries for smartphones ---------------------------------- */
 @media screen and (max-width: 690px) {
 
 #menu_hide1, #menu_hide2 {
    display: none;
    transition-duration: 500ms;
  }
+
+.image {
+  margin-left: 0;
+}
 
 .overlay-content a {
     float: none;
@@ -219,7 +239,7 @@ footer a {
     text-align: center;
 }
 
-.container1, .container2, .container4 {
+.container1, .container2 {
   flex-direction: column;
   padding: 10px;
   margin: 20px auto 20px auto;
@@ -227,14 +247,16 @@ footer a {
 }
 
 .container3 {
-  flex-direction: column-reverse;
+  flex-direction: column;
   padding: 10px;
   margin: 20px auto 20px auto;
 }
 
-.block2 {
+.block2, .block1 {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
 }
